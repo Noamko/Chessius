@@ -1,7 +1,9 @@
 #ifndef PINOUT_H
 #define PINOUT_H
 
-//RGB pinout
+// RGB pinout
+#define RGB_PORT_MIN 22
+#define RGB_PORT_MAX 52
 #define RGB_R_A 44
 #define RGB_G_A 45
 #define RGB_B_A 42
@@ -46,4 +48,5 @@
 #define RGB_COM_3 50
 #define RGB_COM_2 53
 #define RGB_COM_1 52
+
 #endif
